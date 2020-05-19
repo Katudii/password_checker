@@ -1,6 +1,7 @@
 let existingPasswword = "Password12@"
 
 const passwordIsValid = password => {
+
     const existRegex = /Password12@|pass|PASSWORD/
     const stringLength = password.length
     const lowercaseRegex = /[a-z]+/
@@ -22,6 +23,7 @@ const passwordIsValid = password => {
 }
 
 const passwordIsOk = password => {
+    
     let counter = 0
     const existRegex = /Password12@|pass|PASSWOR|Password12/
     const stringLength = password.length
